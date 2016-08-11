@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('BebasNeue-webfont.eot');
+    src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue-webfont.woff') format('woff'),
+         url('BebasNeue-webfont.ttf') format('truetype'),
+         url('BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BebasNeue'; /*a name to be used later*/
+    src: url("fonts/bebas-neue/BebasNeue-webfont.ttf"); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Myriad Pro'; /*a name to be used later*/
+    src: url("fonts/myriad/Myriad Pro Regular.ttf"); /*URL to font*/
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div#general{
+	margin:auto;
+	width:1345px;
+	height:665px;
+}
+div#titulo{
+	float:right;
+	width:1345px;
+	height:100px;
+}
+div#botones{
+	float:left;
+	width:350px;
+	height:470px;
+	position: relative;
+	z-index: 10;
+
+}
+div#otrainfo{
+	float:right;
+	width:350px;
+	height:565px;
+
+}
+div#porcentaje{
+	float:left;
+	width:995px;
+	height:95px;
+
+}
+div#definicionmaterial{
+	width:350px;
+	height:425px;
+}
+div#tipomaterial{
+	width:350px;
+	height:140px;
+	top:-15px;
+	position: relative;
+	z-index: 9;
+
+}
+
+
+h1{
+	text-align: center;
+	padding: 35px;
+	font-family: "BebasNeue"; 
+	font-size: 80px;
+	position: relative;
+	top: -30px;
+}
+
+.porcentajes{
+	
+	margin-left:435px;
+	
+}
+
+.tipo_vivienda{
+	max-height: 415px;
+	width: auto;
+	position: absolute;
+	left: 500px;
+	top: 100px;
+	z-index: -3;
+}
+
+#mapa{
+	position: relative;
+	top: -420px;
+	left: -20px;
+	max-height: 500px;
+	width: auto;
+
+
+}
+
+
+.Boton1{
+
+	height:115px;
+	width: 255px;
+	text-align:center;
+	background-color:#86CCDD;
+	margin-left: 20px;
+	margin-bottom:20px;
+    margin-top:40px;
+}
+
+.Textoboton1{
+	color:black;
+	font-family: "Myriad Pro"; 
+	font-size: 20px;
+	padding: 22px;
+}
+
+.Boton1:hover{
+	background-color:#B5DFE5;
+}
+
+.Boton2{
+	height:80px;
+	width: 255px;
+	text-align:center;
+	background-color:#86CCDD;
+	margin-left: 20px;
+	margin-bottom:20px;
+    
+}
+
+.Textoboton2{
+	color:black;
+	font-family: "Myriad Pro"; 
+	font-size: 20px;
+	padding: 15px;
+}
+.Boton2:hover{
+	background-color:#B5DFE5;
+}
+
+.Boton3{
+	height:120px;
+	width: 255px;
+	text-align:center;
+	background-color:#86CCDD;
+	margin-left: 20px;
+}
+
+.Textoboton3{
+	color:black;
+	font-family: "Myriad Pro"; 
+	font-size: 20px;
+	padding: 15px;
+}
+.Boton3:hover{
+	background-color:#B5DFE5;
+}
+.materiales{
+	margin-left: 30px;
+	margin-bottom:20px;
+    margin-top:20px;
+}
+.deficinionmateriales{
+	width:340px;
+	height:415px;
+	margin-left: 5px;
+	margin-bottom:5px;
+    margin-top:10px;
+}
+.mapa{
+	margin-left: 80px;
+	margin-bottom:80px;
+    margin-top:-160px;
+}
+
+#description2{
+	font-family: "Myriad Pro";
+	font-size: 20px;
+	padding: 50px;
+}
+
+#description1{
+	background-color: #DDEDDD;
+	position: absolute;
+	left: 320px;
+	top: 180px;
+	width: 800px;
+	height: 300px;
+	opacity: 1;
+
+}
+
+#continuar{
+	font-family: "Myriad Pro";
+	font-size: 20px;
+	padding: 50px;
+}
