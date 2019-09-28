@@ -3,9 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Santiago Vulnerable</title>
-	<link rel="stylesheet" type="text/css" href="estilo_1_lindo.css">
-	<script type="text/javascript" src="jquery-1.10.1.js"></script>
-	<script type="text/javascript" src="aplicacion.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+	<script type="text/javascript" src="js/aplicacion.js"></script>
 </head>
 <body>
 
@@ -22,10 +23,10 @@
     <a href="index.html" style="text-decoration:none"><div class= "Boton1">
 	 <p class="Textoboton1">   Pobreza vs. materiales de construcción de viviendas</p>
 	 </div></a>
-	 <a href="index_2_lindo.html" style="text-decoration:none"><div class= "Boton2">
+	 <a href="poverty-vs-events.html" style="text-decoration:none"><div class= "Boton2">
 	 <p class="Textoboton2">Pobreza vs. eventos endógenos</p>
 	 </div></a>
-	 <a href="index_3_lindo.html" style="text-decoration:none"><div class= "Boton3" onclick=”location.href=’index_2_lindo.html’;”>
+	 <a href="materials-vs-events.html" style="text-decoration:none"><div class= "Boton3" onclick=”location.href=’index_2_lindo.html’;”>
 	 <p class="Textoboton3">Materiales de construcción de viviendas vs. eventos endógenos</p>
 	 </div></a>
     </div>
@@ -33,18 +34,18 @@
 
     <div id="otrainfo">
     <div id="definicionmaterial">
-    <img src="definicionmateriales.svg" id="definicion_materiales" hidden width="255.6" height="318" class="deficinionmateriales" title="definicionmateriales"/>
+    <img src="src/definicionmateriales.svg" id="definicion_materiales" hidden width="255.6" height="318" class="deficinionmateriales" title="definicionmateriales"/>
     </div>
     <div id="tipomaterial">
-    <img src="Materialesp.svg" id="tipo_material" width="255.6" height="104.7" class="materiales" title="materialesp"/>
+    <img src="src/Materialesp.svg" id="tipo_material" width="255.6" height="104.7" class="materiales" title="materialesp"/>
     </div>
     </div>
 
     <div id="porcentaje">
-    <img src="porcentajes.svg" id="porcentajes" width="516" height="65" class="porcentajes" title="porcentajes"/>
+    <img src="src/porcentajes.svg" id="porcentajes" width="516" height="65" class="porcentajes" title="porcentajes"/>
     </div>
-   
-   
+
+
 	<svg class="mapa" version="1.1" id="mapa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
 	<g>
@@ -273,45 +274,45 @@
 	</g>
 	</svg>
 
-	<img src="simbologia catastrofes.svg" id="simbologia">
-	<img src="Viviendas/BOS.svg" id="BOS_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/CERR.svg" id="CERR_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/CIS.svg" id="CIS_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/CNAV.svg" id="CNAV_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/CONC.svg" id="CONC_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/EC.svg" id="EC_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/ESP.svg" id="ESP_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/FLO.svg" id="FLO_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/GRA.svg" id="GRA_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/HUE.svg" id="HUE_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/IND.svg" id="IND_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/LB.svg" id="LB_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/LC.svg" id="LC_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/LPRA.svg" id="LPRA_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/LR.svg" id="LR_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/MAC.svg" id="MAC_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/MAI.svg" id="MAI_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/ÑU.svg" id="ÑU_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PA.svg" id="PA_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PAC.svg" id="PAC_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PH.svg" id="PH_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PIN.svg" id="PIN_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PIR.svg" id="PIR_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PÑ.svg" id="PÑ_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PRO.svg" id="PRO_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/PUD.svg" id="PUD_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/QN.svg" id="QN_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/QUIL.svg" id="QUIL_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/REC.svg" id="REC_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/REN.svg" id="REN_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/SAN.svg" id="SAN_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/SB.svg" id="SB_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/SJ.svg" id="SJ_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/SJM.svg" id="SJM_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/SM.svg" id="SM_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/SR.svg" id="SR_vec" hidden class="tipo_vivienda">
-	<img src="Viviendas/VI.svg" id="VI_vec" hidden class="tipo_vivienda">
-	<div id="description1"> 
+	<img src="src/simbologia catastrofes.svg" id="simbologia">
+	<img src="src/Viviendas/BOS.svg" id="BOS_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/CERR.svg" id="CERR_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/CIS.svg" id="CIS_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/CNAV.svg" id="CNAV_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/CONC.svg" id="CONC_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/EC.svg" id="EC_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/ESP.svg" id="ESP_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/FLO.svg" id="FLO_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/GRA.svg" id="GRA_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/HUE.svg" id="HUE_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/IND.svg" id="IND_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/LB.svg" id="LB_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/LC.svg" id="LC_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/LPRA.svg" id="LPRA_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/LR.svg" id="LR_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/MAC.svg" id="MAC_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/MAI.svg" id="MAI_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/ÑU.svg" id="ÑU_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PA.svg" id="PA_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PAC.svg" id="PAC_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PH.svg" id="PH_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PIN.svg" id="PIN_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PIR.svg" id="PIR_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PÑ.svg" id="PÑ_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PRO.svg" id="PRO_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/PUD.svg" id="PUD_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/QN.svg" id="QN_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/QUIL.svg" id="QUIL_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/REC.svg" id="REC_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/REN.svg" id="REN_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/SAN.svg" id="SAN_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/SB.svg" id="SB_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/SJ.svg" id="SJ_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/SJM.svg" id="SJM_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/SM.svg" id="SM_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/SR.svg" id="SR_vec" hidden class="tipo_vivienda">
+	<img src="src/Viviendas/VI.svg" id="VI_vec" hidden class="tipo_vivienda">
+	<div id="description1">
 	<p id="description2">En esta sección podrás visualizar el porcentaje de pobreza de cada comuna
 respecto al total de sus habitantes y los porcentajes de viviendas
 construidas con cada tipo de material por comuna. Esto lo puedes ver al
@@ -323,9 +324,9 @@ pasar el cursor sobre cada comuna de Santiago.</p>
 En esta sección puedes visualizar los porcentajes de viviendas construidas con
 cada material por comuna y contrastarla con la cantidad de eventos
 endógenos que han ocurrido en esa comuna entre 1980 hasta el 2014.
-<!-- 
+<!--
 
-<img src="mapa Santiago 2013_ con id.svg" id="mapa"> 
+<img src="mapa Santiago 2013_ con id.svg" id="mapa">
 <img src="IMG_1714.JPG" id="LC_vec" height="300px" width="500px" hidden>
 	<img src="10926186_1672100429493174_6884414831037373125_n.jpg" id="VI_vec" height="300px" width="500px" hidden>
 	<img src="negro_confundido.jpg" id="CIS_vec" height="300px" width="500px" hidden>

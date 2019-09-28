@@ -12,12 +12,12 @@
 
 @font-face {
     font-family: 'BebasNeue'; /*a name to be used later*/
-    src: url("fonts/bebas-neue/BebasNeue-webfont.ttf"); /*URL to font*/
+    src: url("../fonts/bebas-neue/BebasNeue-webfont.ttf"); /*URL to font*/
 }
 
 @font-face {
     font-family: 'Myriad Pro'; /*a name to be used later*/
-    src: url("fonts/myriad/Myriad Pro Regular.ttf"); /*URL to font*/
+    src: url("../fonts/myriad/Myriad Pro Regular.ttf"); /*URL to font*/
 }
 *{
 	margin:0px;
@@ -71,16 +71,16 @@ div#tipomaterial{
 h1{
 	text-align: center;
 	padding: 35px;
-	font-family: "BebasNeue"; 
+	font-family: "BebasNeue";
 	font-size: 80px;
 	position: relative;
 	top: -30px;
 }
 
 .porcentajes{
-	
+
 	margin-left:435px;
-	
+
 }
 
 .tipo_vivienda{
@@ -116,7 +116,7 @@ h1{
 
 .Textoboton1{
 	color:black;
-	font-family: "Myriad Pro"; 
+	font-family: "Myriad Pro";
 	font-size: 20px;
 	padding: 22px;
 }
@@ -132,12 +132,12 @@ h1{
 	background-color:#86CCDD;
 	margin-left: 20px;
 	margin-bottom:20px;
-    
+
 }
 
 .Textoboton2{
 	color:black;
-	font-family: "Myriad Pro"; 
+	font-family: "Myriad Pro";
 	font-size: 20px;
 	padding: 15px;
 }
@@ -155,7 +155,7 @@ h1{
 
 .Textoboton3{
 	color:black;
-	font-family: "Myriad Pro"; 
+	font-family: "Myriad Pro";
 	font-size: 20px;
 	padding: 15px;
 }
